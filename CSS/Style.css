@@ -185,7 +185,7 @@ p.pcTitle{
 	/*Ancho del borde*/
 	border-width: 7px;
 	/* Color del fondo*/
-	background-color: #FF7616;
+	background-color: #9DCDE8;
 }
 
 p.pcSubTitle{
@@ -208,7 +208,7 @@ p.pcSubTitle{
 	/*Ancho del borde*/
 	border-width: 7px;
 	/* Color del fondo*/
-	background-color: #FF7616;
+	background-color: #9DCDE8;
 }
 
 p.cpuTitle{
@@ -548,7 +548,7 @@ p.caseTitle{
 	/*Ancho del borde*/
 	border-width: 7px;
 	/* Color del fondo*/
-	background-color: #FF7616;
+	background-color: #9DCDE8;
 }
 
 .cpu{
