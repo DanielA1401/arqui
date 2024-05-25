@@ -9,17 +9,25 @@
 /* Autor: Jordi Alejandro Mauricio de León	*/
 /*------------------------------------------*/
 
-body.computadora{
-		/* Cargamos fondo */
-		background-image: url("../Media/Imagenes/fondo.jpg");
-		/* Ancho del contenido de la pagina */
-		width: 36%;
-		/* Margen al rededor del contenido */
-		margin: auto;
-		/* Tamaño de letra */
-		font-size: 20px;
-		/* Color de letra */
-		color: white;
+body.computadora {
+    /* Cargamos fondo */
+    background-image: url("../Media/Imagenes/fondo.jpg");
+    /* Ajustamos el tamaño del fondo para que cubra toda la página */
+    background-size: cover;
+    /* Nos aseguramos de que la imagen de fondo se repita si es necesario */
+    background-repeat: no-repeat;
+    /* Centramos la imagen de fondo */
+    background-position: center;
+    /* Ancho del contenido de la página */
+    width: 36%;
+    /* Margen alrededor del contenido */
+    margin: auto;
+    /* Tamaño de letra */
+    font-size: 20px;
+    /* Color de letra */
+    color: white;
+    /* Altura mínima para asegurar que el contenido ocupe al menos toda la ventana */
+    min-height: 100vh;
 }
 
 body.fondo{
