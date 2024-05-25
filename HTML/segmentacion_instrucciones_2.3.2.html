@@ -1,0 +1,42 @@
+<!--Este es un proyecto para explicar las partes de una computadora
+	Autor: Jordi Alejandro Mauricio de León -->
+<!DOCTYPE html>
+<html>
+	<!--Establecemos el titulo de la pestaña-->
+	<title>Instrucciones</title>
+	<!--Cargamos el CSS-->
+	<link rel="stylesheet" type="text/css" href="..\CSS\Style.css">
+	<!-- Cargamos el link de las fuentes de Google API -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<!-- Cargamos los tipos de fuentes elegidos -->
+	<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Bebas+Neue&family=Play:wght@700&family=Questrial&display=swap" rel="stylesheet">
+<head>
+	<!--La referencia indica que se establecera un icono para la pestaña de la pagina y de que tipo-->
+	<link rel="icon" type="image/png" href="../Media/Imagenes/icono.png">
+</head>
+<body class=fondoRam>
+	<!-- Llamamos la clase que da formato al titulo -->
+	<p class=ramTitle>&nbsp;&nbsp;&nbsp;Segmentaci&oacute;n de instrucciones&nbsp;&nbsp;&nbsp;</p>
+	<!-- Llamamos la clase que da formato al texto -->
+	<p class=ram><ul class=ram>&nbsp;
+	Es una técnica que permite implementar el paralelismo a nivel de instrucción en un único procesador. La segmentación
+	intenta tener ocupadas con instrucciones todas las partes del procesador dividiendo las instrucciones en una serie
+	de pasos secuenciales que efectuarán distintas unidades de la CPU, tratando en paralelo diferentes partes de las
+	instrucciones. Permite una mayor tasa de transferencia efectiva por parte de la CPU que la que sería posible a una
+	determinada frecuencia de reloj, pero puede aumentar la latencia debido al trabajo adicional que supone el propio
+	proceso de la segmentación.
+	<!--Elaboramos una lista-->
+	<br><br>Para ejecutar las instrucciones, todo procesador dispone de tres componentes principales:<br>
+		<li>Un conjunto de registros: Espacio de almacenamiento temporal de datos e instrucciones dentro del procesador.</li>
+		<li>Unidad aritmética y lógica o ALU: Circuito que hace un conjunto de operaciones aritméticas y lógicas con los datos almacenados dentro del procesador.</li>
+		<li>Unidad de control: Circuito que controla el funcionamiento de todos los componentes del procesador. Controla el movimiento de datos e 
+		instrucciones dentro y fuera del procesador y también las operaciones de la ALU.</li>
+	<br><br>
+	<!--Cargamos una imagen y sus dimensiones-->
+	<center><img src="../Media/Imagenes/segmentada.png" alt="segmentada" width="800" height="400"></center>
+	<br><br>
+	<!-- Cargamos los botones y su referncia -->
+	<center><a href="ciclo_fde_2.3.1.html"><button class="botonAt botonAt"></button></a><a href="conjunto_instrucciones_2.3.3.html"><button class="botonAd botonAd"></button></a>
+	</p></ul>
+</body>
+</html>

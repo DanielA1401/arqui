@@ -1,0 +1,1127 @@
+/*--------------------------------------------------------------------------------------------------
+	Esta hoja de estilo va a ayudar a dar formato al proyecto de HTML del tema "Arquitectura de pc"
+	Autor: Jordi Alejandro Mauricio de León
+----------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------*/
+/* Este bloque contiene Fondos				*/
+/* Fecha de creación: 16/04/2021			*/
+/* Autor: Jordi Alejandro Mauricio de León	*/
+/*------------------------------------------*/
+
+body.computadora{
+		/* Cargamos fondo */
+		background-image: url("../Media/Imagenes/fondo.png");
+		/* Ancho del contenido de la pagina */
+		width: 36%;
+		/* Margen al rededor del contenido */
+		margin: auto;
+		/* Tamaño de letra */
+		font-size: 20px;
+		/* Color de letra */
+		color: white;
+}
+
+body.fondo{
+		/* Cargamos fondo */
+		background-image: url("../Media/Imagenes/fondo1.png");
+		/* Ancho del contenido de la pagina */
+		width: 36%;
+		/* Margen al rededor del contenido */
+		margin: auto;
+		/* Tamaño de letra */
+		font-size: 20px;
+		/* Color de letra */
+		color: white;
+}
+
+body.fondoCpu{
+		/* Cargamos fondo */
+		background-image: url("../Media/Imagenes/fondoCpu.png");
+		/* Ancho del contenido de la pagina */
+		width: 36%;
+		/* Margen al rededor del contenido */
+		margin: auto;
+		/* Tamaño de letra */
+		font-size: 20px;
+		/* Color de letra */
+		color: white;
+}
+
+body.fondoMb{
+		/* Cargamos fondo */
+		background-image: url("../Media/Imagenes/fondoMb.png");
+		/* Ancho del contenido de la pagina */
+		width: 36%;
+		/* Margen al rededor del contenido */
+		margin: auto;
+		/* Tamaño de letra */
+		font-size: 20px;
+		/* Color de letra */
+		color: white;
+}
+
+body.fondoRam{
+		/* Cargamos fondo */
+		background-image: url("../Media/Imagenes/fondoRam.png");
+		/* Ancho del contenido de la pagina */
+		width: 36%;
+		/* Margen al rededor del contenido */
+		margin: auto;
+		/* Tamaño de letra */
+		font-size: 20px;
+		/* Color de letra */
+		color: white;
+}
+
+body.fondoGpu{
+		/* Cargamos fondo */
+		background-image: url("../Media/Imagenes/fondoGpu.png");
+		/* Ancho del contenido de la pagina */
+		width: 36%;
+		/* Margen al rededor del contenido */
+		margin: auto;
+		/* Tamaño de letra */
+		font-size: 20px;
+		/* Color de letra */
+		color: white;
+}
+
+body.fondoHdd{
+		/* Cargamos fondo */
+		background-image: url("../Media/Imagenes/fondoHdd.png");
+		/* Ancho del contenido de la pagina */
+		width: 36%;
+		/* Margen al rededor del contenido */
+		margin: auto;
+		/* Tamaño de letra */
+		font-size: 20px;
+		/* Color de letra */
+		color: white;
+}
+
+body.fondoPsu{
+		/* Cargamos fondo */
+		background-image: url("../Media/Imagenes/fondoPsu.png");
+		/* Ancho del contenido de la pagina */
+		width: 36%;
+		/* Margen al rededor del contenido */
+		margin: auto;
+		/* Tamaño de letra */
+		font-size: 20px;
+		/* Color de letra */
+		color: white;
+}
+
+body.fondoG{
+		/* Cargamos fondo */
+		background-image: url("../Media/Imagenes/fondoCase.png");
+		/* Ancho del contenido de la pagina */
+		width: 36%;
+		/* Margen al rededor del contenido */
+		margin: auto;
+		/* Tamaño de letra */
+		font-size: 20px;
+		/* Color de letra */
+		color: white;
+}
+
+.componentes{
+		
+		/* Ancho del contenido de la pagina */
+		width: 36%;
+		/* Margen al rededor del contenido */
+		margin: auto;
+		/* Tamaño de letra */
+		font-size: 20px;
+		/* Color de letra */
+		color: white;
+		/* Ancho del contenido */
+		width: 512px;
+		/* Alto del contenido */
+		height: 512px;
+		/* Alineacion de la letra */
+		text-align: center;
+		/* Tamaño desde arriba de la alineacion del contenido */
+		top: 250px;
+		/* Tamaño de la alineacion del contenido del lado derecho*/
+		right: 450px;
+		/* Alineacion del contenido */
+		position: absolute;
+}
+
+
+/*------------------------------------------*/
+/* Este bloque contiene Títulos				*/
+/* Fecha de creación: 16/04/2021			*/
+/* Autor: Jordi Alejandro Mauricio de León	*/
+/*------------------------------------------*/
+
+p.pcTitle{
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 50px;
+	/* Tipo de letra */
+	font-family: "Bebas Neue";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Tamaño de letra */
+	font-size: 60px;
+	/* Borde solido*/
+	border-style: solid;
+	/* Color del borde*/
+	border-color: white;
+	/* Radio del borde*/
+	border-radius: 20px;
+	/*Ancho del borde*/
+	border-width: 7px;
+	/* Color del fondo*/
+	background-color: #FF7616;
+}
+
+p.pcSubTitle{
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 50px;
+	/* Tipo de letra */
+	font-family: "Antonio";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Tamaño de letra */
+	font-size: 60px;
+	/* Borde solido*/
+	border-style: solid;
+	/* Color del borde*/
+	border-color: white;
+	/* Radio del borde*/
+	border-radius: 20px;
+	/*Ancho del borde*/
+	border-width: 7px;
+	/* Color del fondo*/
+	background-color: #FF7616;
+}
+
+p.cpuTitle{
+	/* Espacio alrededor del texto */
+	padding: 10px;
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 50px;
+	/* Tipo de letra */
+	font-family: "Antonio";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Tamaño de letra */
+	font-size: 60px;
+	/* Borde solido*/
+	border-style: solid;
+	/* Color del borde*/
+	border-color: white;
+	/* Radio del borde*/
+	border-radius: 20px;
+	/*Ancho del borde*/
+	border-width: 7px;
+	/* Color del fondo*/
+	background-color: #143FE6;
+}
+
+p.mbTitle{
+	/* Espacio alrededor del texto */
+	padding: 10px;
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 50px;
+	/* Tipo de letra */
+	font-family: "Antonio";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Tamaño de letra */
+	font-size: 60px;
+	/* Borde solido*/
+	border-style: solid;
+	/* Color del borde*/
+	border-color: white;
+	/* Radio del borde*/
+	border-radius: 20px;
+	/*Ancho del borde*/
+	border-width: 7px;
+	/* Color del fondo*/
+	background-color: #8D55CC ;
+}
+
+p.ramTitle{
+	/* Espacio alrededor del texto */
+	padding: 10px;
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 50px;
+	/* Tipo de letra */
+	font-family: "Antonio";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Tamaño de letra */
+	font-size: 60px;
+	/* Borde solido*/
+	border-style: solid;
+	/* Color del borde*/
+	border-color: white;
+	/* Radio del borde*/
+	border-radius: 20px;
+	/*Ancho del borde*/
+	border-width: 7px;
+	/* Color del fondo*/
+	background-color: #0A9D00;
+}
+
+p.gpuTitle{
+	/* Espacio alrededor del texto */
+	padding: 10px;
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 50px;
+	/* Tipo de letra */
+	font-family: "Antonio";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Tamaño de letra */
+	font-size: 60px;
+	/* Borde solido*/
+	border-style: solid;
+	/* Color del borde*/
+	border-color: white;
+	/* Radio del borde*/
+	border-radius: 20px;
+	/*Ancho del borde*/
+	border-width: 7px;
+	/* Color del fondo*/
+	background-color: #FF6412;
+}
+
+p.hddTitle{
+	/* Espacio alrededor del texto */
+	padding: 10px;
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 50px;
+	/* Tipo de letra */
+	font-family: "Antonio";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Tamaño de letra */
+	font-size: 60px;
+	/* Borde solido*/
+	border-style: solid;
+	/* Color del borde*/
+	border-color: white;
+	/* Radio del borde*/
+	border-radius: 20px;
+	/*Ancho del borde*/
+	border-width: 7px;
+	/* Color del fondo*/
+	background-color: #858585;
+}
+
+p.psuTitle{
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 50px;
+	/* Tipo de letra */
+	font-family: "Antonio";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Tamaño de letra */
+	font-size: 60px;
+	/* Borde solido*/
+	border-style: solid;
+	/* Color del borde*/
+	border-color: white;
+	/* Radio del borde*/
+	border-radius: 20px;
+	/*Ancho del borde*/
+	border-width: 7px;
+	/* Color del fondo*/
+	background-color: #FFA31F;
+}
+
+p.caseTitle{
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 50px;
+	/* Tipo de letra */
+	font-family: "Antonio";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Tamaño de letra */
+	font-size: 60px;
+	/* Borde solido*/
+	border-style: solid;
+	/* Color del borde*/
+	border-color: white;
+	/* Radio del borde*/
+	border-radius: 20px;
+	/*Ancho del borde*/
+	border-width: 7px;
+	/* Color del fondo*/
+	background-color: #BE00D5;
+}
+
+
+.sub1{
+	z-index: 1;
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 100px;
+	/* Tipo de letra */
+	font-family: "Antonio";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Tamaño de letra */
+	font-size: 60px;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 180px;
+}
+
+.sub2{
+	z-index: 1;
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 45px;
+	/* Tipo de letra */
+	font-family: "Antonio";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Tamaño de letra */
+	font-size: 60px;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 1020px;
+}
+
+.sub3{
+	z-index: 1;
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 45px;
+	/* Tipo de letra */
+	font-family: "Antonio";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Tamaño de letra */
+	font-size: 60px;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 495px;
+}
+
+
+.sub4{
+	z-index: 1;
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 45px;
+	/* Tipo de letra */
+	font-family: "Antonio";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Tamaño de letra */
+	font-size: 60px;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 140px;
+}
+
+.sub5{
+	z-index: 1;
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 45px;
+	/* Tipo de letra */
+	font-family: "Antonio";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Tamaño de letra */
+	font-size: 60px;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 470px;
+}
+
+.sub6{
+	z-index: 1;
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 45px;
+	/* Tipo de letra */
+	font-family: "Antonio";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Tamaño de letra */
+	font-size: 60px;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 170px;
+}
+
+.sub7{
+	z-index: 1;
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 45px;
+	/* Tipo de letra */
+	font-family: "Antonio";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Tamaño de letra */
+	font-size: 60px;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 450px;
+}
+
+.sub8{
+	z-index: 1;
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 45px;
+	/* Tipo de letra */
+	font-family: "Antonio";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Tamaño de letra */
+	font-size: 60px;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 1400px;
+}
+
+/*------------------------------------------*/
+/* Este bloque contiene Texto				*/
+/* Fecha de creación: 16/04/2021			*/
+/* Autor: Jordi Alejandro Mauricio de León	*/
+/*------------------------------------------*/
+
+.texto{
+	/* Espacio alrededor del texto */
+	padding: 40px;
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 50px;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 210px;
+	/* Tipo de letra */
+	font-family: "Questrial";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Ancho del contenido de la pagina */
+	width: 90%;
+	/* Margen al rededor del contenido */
+	margin: auto;
+	/* Tamaño de letra */
+	font-size: 30px;
+	/* Color de letra */
+	color: white;
+	/* Borde solido*/
+	border-style: solid;
+	/* Color del borde*/
+	border-color: white;
+	/* Radio del borde*/
+	border-radius: 20px;
+	/*Ancho del borde*/
+	border-width: 7px;
+	/* Color del fondo*/
+	background-color: #FF7616;
+}
+
+.cpu{
+	/* Espacio alrededor del texto */
+	padding: 40px;
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 50px;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 210px;
+	/* Tipo de letra */
+	font-family: "Questrial";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Ancho del contenido de la pagina */
+	width: 90%;
+	/* Margen al rededor del contenido */
+	margin: auto;
+	/* Tamaño de letra */
+	font-size: 30px;
+	/* Color de letra */
+	color: white;
+	/* Borde solido*/
+	border-style: solid;
+	/* Color del borde*/
+	border-color: white;
+	/* Radio del borde*/
+	border-radius: 20px;
+	/*Ancho del borde*/
+	border-width: 7px;
+	/* Color del fondo*/
+	background-color: #1DAAF0;
+}
+
+.mb{
+	/* Espacio alrededor del texto */
+	padding: 40px;
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 50px;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 210px;
+	/* Tipo de letra */
+	font-family: "Questrial";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Ancho del contenido de la pagina */
+	width: 90%;
+	/* Margen al rededor del contenido */
+	margin: auto;
+	/* Tamaño de letra */
+	font-size: 30px;
+	/* Color de letra */
+	color: white;
+	/* Borde solido*/
+	border-style: solid;
+	/* Color del borde*/
+	border-color: white;
+	/* Radio del borde*/
+	border-radius: 20px;
+	/*Ancho del borde*/
+	border-width: 7px;
+	/* Color del fondo*/
+	background-color: #B483EC;
+}
+
+.ram{
+	/* Espacio alrededor del texto */
+	padding: 40px;
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 50px;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 210px;
+	/* Tipo de letra */
+	font-family: "Questrial";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Ancho del contenido de la pagina */
+	width: 90%;
+	/* Margen al rededor del contenido */
+	margin: auto;
+	/* Tamaño de letra */
+	font-size: 30px;
+	/* Color de letra */
+	color: white;
+	/* Borde solido*/
+	border-style: solid;
+	/* Color del borde*/
+	border-color: white;
+	/* Radio del borde*/
+	border-radius: 20px;
+	/*Ancho del borde*/
+	border-width: 7px;
+	/* Color del fondo*/
+	background-color: #0CCD00;
+}
+
+.gpu{
+	/* Espacio alrededor del texto */
+	padding: 40px;
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 50px;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 210px;
+	/* Tipo de letra */
+	font-family: "Questrial";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Ancho del contenido de la pagina */
+	width: 90%;
+	/* Margen al rededor del contenido */
+	margin: auto;
+	/* Tamaño de letra */
+	font-size: 30px;
+	/* Color de letra */
+	color: white;
+	/* Borde solido*/
+	border-style: solid;
+	/* Color del borde*/
+	border-color: white;
+	/* Radio del borde*/
+	border-radius: 20px;
+	/*Ancho del borde*/
+	border-width: 7px;
+	/* Color del fondo*/
+	background-color: #EF854E;
+}
+
+.hdd{
+	/* Espacio alrededor del texto */
+	padding: 40px;
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 50px;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 210px;
+	/* Tipo de letra */
+	font-family: "Questrial";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Ancho del contenido de la pagina */
+	width: 90%;
+	/* Margen al rededor del contenido */
+	margin: auto;
+	/* Tamaño de letra */
+	font-size: 30px;
+	/* Color de letra */
+	color: white;
+	/* Borde solido*/
+	border-style: solid;
+	/* Color del borde*/
+	border-color: white;
+	/* Radio del borde*/
+	border-radius: 20px;
+	/*Ancho del borde*/
+	border-width: 7px;
+	/* Color del fondo*/
+	background-color: #BFBFBF;
+}
+
+.psu{
+	/* Espacio alrededor del texto */
+	padding: 40px;
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 50px;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 210px;
+	/* Tipo de letra */
+	font-family: "Questrial";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Ancho del contenido de la pagina */
+	width: 90%;
+	/* Margen al rededor del contenido */
+	margin: auto;
+	/* Tamaño de letra */
+	font-size: 30px;
+	/* Color de letra */
+	color: white;
+	/* Borde solido*/
+	border-style: solid;
+	/* Color del borde*/
+	border-color: white;
+	/* Radio del borde*/
+	border-radius: 20px;
+	/*Ancho del borde*/
+	border-width: 7px;
+	/* Color del fondo*/
+	background-color: #E8A84B;
+}
+
+.case{
+	/* Espacio alrededor del texto */
+	padding: 40px;
+	/* Alineacion del contenido */
+	position: absolute;
+	/* Tamaño de la alineacion del contenido */
+	left: 50px;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 210px;
+	/* Tipo de letra */
+	font-family: "Questrial";
+	/* Alineacion de la letra */
+	text-align: left;
+	/* Ancho del contenido de la pagina */
+	width: 90%;
+	/* Margen al rededor del contenido */
+	margin: auto;
+	/* Tamaño de letra */
+	font-size: 30px;
+	/* Color de letra */
+	color: white;
+	/* Borde solido*/
+	border-style: solid;
+	/* Color del borde*/
+	border-color: white;
+	/* Radio del borde*/
+	border-radius: 20px;
+	/*Ancho del borde*/
+	border-width: 7px;
+	/* Color del fondo*/
+	background-color: #E06AEE;
+}
+
+/*------------------------------------------*/
+/* Este bloque contiene los botones			*/
+/* Fecha de creación: 16/04/2021			*/
+/* Autor: Jordi Alejandro Mauricio de León	*/
+/*------------------------------------------*/
+
+.boton1{	
+	/* Ancho del contenido */
+	width: 160px;
+	/* Alto del contenido */
+	height: 160px;
+	/* Alineacion de la letra */
+	text-align: center;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 300px;
+	/* Tamaño de la alineacion del contenido del lado derecho*/
+	right: 565px;
+	/* Alineacion del contenido */
+	position: relative;
+	/* Borde solido*/
+	border: 10px solid #FFFF;
+	/* Radio del borde */
+	border-radius: 250px;
+	/* Duración de la transición */
+	transition-duration;.60s;
+	/* Imagen del fondo */
+	background: url("../Media/Imagenes/unidad1.png");
+	/* Tamaño de la imagen del fondo */
+	background-size: cover;
+}
+
+.boton1:hover{
+	/* Cambia la escala del boton */
+	transform: scale(.95);
+}
+
+.boton2{
+	/* Ancho del contenido */
+	width: 160px;
+	/* Alto del contenido */
+	height: 160px;
+	/* Alineacion de la letra */
+	text-align: center;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 300px;
+	/* Tamaño de la alineacion del contenido del lado derecho*/
+	right: 565px;
+	/* Alineacion del contenido */
+	position: relative;
+	/* Borde solido*/
+	border: 10px solid #FFFF;
+	/* Radio del borde */
+	border-radius: 250px;
+	/* Duración de la transición */
+	transition-duration;.60s;
+	/* Imagen del fondo */
+	background: url("../Media/Imagenes/unidad2.png");
+	/* Tamaño de la imagen del fondo */
+	background-size: cover;
+}
+
+.boton2:hover{
+	/* Cambia la escala del boton */
+	transform: scale(.95);
+}
+
+.boton3{
+	/* Ancho del contenido */
+	width: 160px;
+	/* Alto del contenido */
+	height: 160px;
+	/* Alineacion de la letra */
+	text-align: center;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 300px;
+	/* Tamaño de la alineacion del contenido del lado derecho*/
+	right: 565px;
+	/* Alineacion del contenido */
+	position: relative;
+	/* Borde solido*/
+	border: 10px solid #FFFF;
+	/* Radio del borde */
+	border-radius: 250px;
+	/* Duración de la transición */
+	transition-duration;.60s;
+	/* Imagen del fondo */
+	background: url("../Media/Imagenes/unidad3.png");
+	/* Tamaño de la imagen del fondo */
+	background-size: cover;
+}
+
+.boton3:hover{
+	/* Cambia la escala del boton */
+	transform: scale(.95);
+}
+
+.boton4{
+	/* Ancho del contenido */
+	width: 160px;
+	/* Alto del contenido */
+	height: 160px;
+	/* Alineacion de la letra */
+	text-align: center;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 305px;
+	/* Tamaño de la alineacion del contenido del lado derecho*/
+	right: 565px;
+	/* Alineacion del contenido */
+	position: relative;
+	/* Borde solido*/
+	border: 10px solid #FFFF;
+	/* Radio del borde */
+	border-radius: 250px;
+	/* Duración de la transición */
+	transition-duration;.60s;
+	/* Imagen del fondo */
+	background: url("../Media/Imagenes/unidad4.png");
+	/* Tamaño de la imagen del fondo */
+	background-size: cover;
+}
+
+.boton4:hover{
+	/* Cambia la escala del boton */
+	transform: scale(.95);
+}
+
+.boton5{
+	/* Ancho del contenido */
+	width: 160px;
+	/* Alto del contenido */
+	height: 160px;
+	/* Alineacion de la letra */
+	text-align: center;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 300px;
+	/* Tamaño de la alineacion del contenido del lado derecho*/
+	right: 480px;
+	/* Alineacion del contenido */
+	position: relative;
+	/* Borde solido*/
+	border: 10px solid #FFFF;
+	/* Radio del borde */
+	border-radius: 250px;
+	/* Duración de la transición */
+	transition-duration;.60s;
+	/* Imagen del fondo */
+	background: url("../Media/Imagenes/tarea.png");
+	/* Tamaño de la imagen del fondo */
+	background-size: cover;
+}
+
+.boton5:hover{
+	/* Cambia la escala del boton */
+	transform: scale(.95);
+}
+
+.boton6{
+	/* Ancho del contenido */
+	width: 160px;
+	/* Alto del contenido */
+	height: 160px;
+	/* Alineacion de la letra */
+	text-align: center;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 313px;
+	/* Tamaño de la alineacion del contenido del lado derecho*/
+	right: 565px;
+	/* Alineacion del contenido */
+	position: relative;
+	/* Borde solido*/
+	border: 10px solid #FFFF;
+	/* Radio del borde */
+	border-radius: 250px;
+	/* Duración de la transición */
+	transition-duration;.60s;
+	/* Imagen del fondo */
+	background: url("../Media/Imagenes/psu.png");
+	/* Tamaño de la imagen del fondo */
+	background-size: cover;
+}
+
+.boton6:hover{
+	/* Cambia la escala del boton */
+	transform: scale(.95);
+}
+
+.boton7{
+	/* Ancho del contenido */
+	width: 160px;
+	/* Alto del contenido */
+	height: 160px;
+	/* Alineacion de la letra */
+	text-align: center;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 324px;
+	/* Tamaño de la alineacion del contenido del lado derecho*/
+	right: 565px;
+	/* Alineacion del contenido */
+	position: relative;
+	/* Borde solido*/
+	border: 10px solid #FFFF;
+	/* Radio del borde */
+	border-radius: 250px;
+	/* Duración de la transición */
+	transition-duration;.60s;
+	/* Imagen del fondo */
+	background: url("../Media/Imagenes/gabinete.png");
+	/* Tamaño de la imagen del fondo */
+	background-size: cover;
+}
+
+.boton7:hover{
+	/* Cambia la escala del boton */
+	transform: scale(.95);
+}
+
+.botonAt{	
+	/* Ancho del contenido */
+	width: 160px;
+	/* Alto del contenido */
+	height: 160px;
+	/* Alineacion de la letra */
+	text-align: center;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 50px;
+	/* Tamaño de la alineacion del contenido del lado derecho*/
+	left: 490px;
+	/* Alineacion del contenido */
+	position: relative;
+	/* Borde solido*/
+	border: 10px solid #FFFF;
+	/* Radio del borde */
+	border-radius: 250px;
+	/* Duración de la transición */
+	transition-duration;.60s;
+	/* Imagen del fondo */
+	background: url("../Media/Imagenes/atras.png");
+	/* Tamaño de la imagen del fondo */
+	background-size: cover;
+}
+
+.botonAt:hover{
+	/* Cambia la escala del boton */
+	transform: scale(.95);
+}
+
+.botonAd{	
+	/* Ancho del contenido */
+	width: 160px;
+	/* Alto del contenido */
+	height: 160px;
+	/* Alineacion de la letra */
+	text-align: center;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 50px;
+	/* Tamaño de la alineacion del contenido del lado derecho*/
+	left: 500px;
+	/* Alineacion del contenido */
+	position: relative;
+	/* Borde solido*/
+	border: 10px solid #FFFF;
+	/* Radio del borde */
+	border-radius: 250px;
+	/* Duración de la transición */
+	transition-duration;.60s;
+	/* Imagen del fondo */
+	background: url("../Media/Imagenes/adelante.png");
+	/* Tamaño de la imagen del fondo */
+	background-size: cover;
+}
+
+.botonAd:hover{
+	/* Cambia la escala del boton */
+	transform: scale(.95);
+}
+
+.subtema1{	
+	/* Ancho del contenido */
+	width: 500px;
+	/* Alto del contenido */
+	height: 80px;
+	/* Alineacion de la letra */
+	text-align: center;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 200px;
+	/* Tamaño de la alineacion del contenido del lado derecho*/
+	right: 550px;
+	/* Alineacion del contenido */
+	position: relative;
+	/* Borde solido*/
+	border: 7px solid #FFFF;
+	/* Radio del borde */
+	border-radius: 250px;
+	/* Duración de la transición */
+	transition-duration;.60s;
+	/* Color del fondo */
+	background-color: #2283F6;
+	/* Tamaño de la imagen del fondo */
+	background-size: cover;
+	/* Tipo de letra */
+	font-family: "Questrial";
+	/* Tamaño de letra */
+	font-size: 30px;
+	/* Color de letra */
+	color: white;
+}
+
+.subtema1:hover{
+	/* Cambia la escala del boton */
+	transform: scale(.95);
+}
+
+.home{	
+	/* Ancho del contenido */
+	width: 160px;
+	/* Alto del contenido */
+	height: 160px;
+	/* Alineacion de la letra */
+	text-align: center;
+	/* Tamaño desde arriba de la alineacion del contenido */
+	top: 50px;
+	/* Tamaño de la alineacion del contenido del lado derecho*/
+	left: 1000px;
+	/* Alineacion del contenido */
+	position: relative;
+	/* Borde solido*/
+	border: 10px solid #FFFF;
+	/* Radio del borde */
+	border-radius: 250px;
+	/* Duración de la transición */
+	transition-duration;.60s;
+	/* Imagen del fondo */
+	background: url("../Media/Imagenes/home.png");
+	/* Tamaño de la imagen del fondo */
+	background-size: cover;
+}
+
+.home:hover{
+	/* Cambia la escala del boton */
+	transform: scale(.95);
+}
+
+.iframe{
+	width:1500px;
+	height:1000px;
+}
+
+.video{
+	width:1500px;
+	height:1000px;
+}

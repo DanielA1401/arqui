@@ -1,0 +1,66 @@
+<!--Este es un proyecto para explicar las partes de una computadora
+	Autor: Jordi Alejandro Mauricio de León -->
+<!DOCTYPE html>
+<html>
+	<!--Establecemos el titulo de la pestaña-->
+	<title>Tipos</title>
+	<!--Cargamos el CSS-->
+	<link rel="stylesheet" type="text/css" href="..\CSS\Style.css">
+	<!-- Cargamos el link de las fuentes de Google API -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<!-- Cargamos los tipos de fuentes elegidos -->
+	<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Bebas+Neue&family=Play:wght@700&family=Questrial&display=swap" rel="stylesheet">
+<head>
+	<!--La referencia indica que se establecera un icono para la pestaña de la pagina y de que tipo-->
+	<link rel="icon" type="image/png" href="../Media/Imagenes/icono.png">
+</head>
+<body class=fondoMb>
+	<!-- Llamamos la clase que da formato al titulo -->
+	<p class=mbTitle>&nbsp;&nbsp;&nbsp;Tipos de computaci&oacute;n paralela&nbsp;&nbsp;&nbsp;</p>
+	<!-- Llamamos la clase que da formato al texto -->
+	<p class=mb><ul class=mb>&nbsp;
+	Paralelismo a nivel de bit:
+	<br>
+	Desde el advenimiento de la integración a gran escala (VLSI) como tecnología de fabricación de chips de computadora en la
+	década de 1970 hasta alrededor de 1986, la aceleración en la arquitectura de computadores se lograba en gran medida duplicando
+	el tamaño de la palabra en la computadora, la cantidad de información que el procesador puede manejar por ciclo.
+	<br><br><br>
+	Paralelismo a nivel de instrucción:
+	Un programa de ordenador es, en esencia, una secuencia de instrucciones ejecutadas por un procesador. Estas instrucciones
+	pueden reordenarse y combinarse en grupos que luego son ejecutadas en paralelo sin cambiar el resultado del programa. Esto
+	se conoce como paralelismo a nivel de instrucción. Los avances en el paralelismo a nivel de instrucción dominaron la
+	arquitectura de computadores desde mediados de 1980 hasta mediados de la década de 1990.
+	<br><br>
+	Los procesadores modernos tienen ''pipeline'' de instrucciones de varias etapas. Cada etapa en el pipeline corresponde a
+	una acción diferente que el procesador realiza en la instrucción correspondiente a la etapa; un procesador con un pipelinede
+	N etapas puede tener hasta n instrucciones diferentes en diferentes etapas de finalización. El ejemplo canónico de un procesador
+	segmentado es un procesador RISC, con cinco etapas: pedir instrucción, decodificar, ejecutar, acceso a la memoria y escritura.
+	El procesador Pentium 4 tenía un pipeline de 35 etapas.
+	<br><br>
+	<!--Cargamos una imagen y sus dimensiones-->
+	<center><img src="../Media/Imagenes/instruccion.png" alt="instruccion" width="393" height="195"></center>
+	<br><br><br>
+	Paralelismo de datos:
+	El paralelismo de datos es el paralelismo inherente en programas con ciclos, que se centra en la distribución de los datos
+	entre los diferentes nodos computacionales que deben tratarse en paralelo. La paralelización de ciclos conduce a menudo a
+	secuencias similares de operaciones —no necesariamente idénticas— o funciones que se realizan en los elementos de una gran
+	estructura de datos. Muchas de las aplicaciones científicas y de ingeniería muestran paralelismo de datos.
+	<br><br>
+	Una dependencia de terminación de ciclo es la dependencia de una iteración de un ciclo en la salida de una o más iteraciones
+	anteriores. Las dependencias de terminación de ciclo evitan la paralelización de ciclos.
+	<br><br><br>
+	<!--Cargamos una imagen y sus dimensiones-->
+	<center><img src="../Media/Imagenes/datos.png" alt="datos" width="340" height="192"></center>
+	<br><br>
+	Paralelismo de tareas:
+	<br>
+	El paralelismo de tareas es la característica de un programa paralelo en la que cálculos completamente diferentes se pueden
+	realizar en cualquier conjunto igual o diferente de datos. Esto contrasta con el paralelismo de datos, donde se realiza el
+	mismo cálculo en distintos o mismos grupos de datos. El paralelismo de tareas por lo general no escala con el tamaño de un
+	problema.
+	<br><br>
+	<!-- Cargamos los botones y su referncia -->
+	<center><a href="unidad4.html"><button class="botonAt botonAt"></button></a><a href="clasificacion_4.2.1.html"><button class="botonAd botonAd"></button></a>
+	</p></ul>
+</body>
+</html>

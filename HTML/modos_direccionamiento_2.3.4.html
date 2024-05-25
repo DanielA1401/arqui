@@ -1,0 +1,87 @@
+<!--Este es un proyecto para explicar las partes de una computadora
+	Autor: Jordi Alejandro Mauricio de León -->
+<!DOCTYPE html>
+<html>
+	<!--Establecemos el titulo de la pestaña-->
+	<title>Direccionamiento</title>
+	<!--Cargamos el CSS-->
+	<link rel="stylesheet" type="text/css" href="..\CSS\Style.css">
+	<!-- Cargamos el link de las fuentes de Google API -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<!-- Cargamos los tipos de fuentes elegidos -->
+	<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Bebas+Neue&family=Play:wght@700&family=Questrial&display=swap" rel="stylesheet">
+<head>
+	<!--La referencia indica que se establecera un icono para la pestaña de la pagina y de que tipo-->
+	<link rel="icon" type="image/png" href="../Media/Imagenes/icono.png">
+</head>
+<body class=fondoRam>
+	<!-- Llamamos la clase que da formato al titulo -->
+	<p class=ramTitle>&nbsp;&nbsp;&nbsp;Modos de direccionamiento&nbsp;&nbsp;&nbsp;</p>
+	<!-- Llamamos la clase que da formato al texto -->
+	<p class=ram><ul class=ram>&nbsp;
+	Son las diferentes maneras de especificar un operando dentro de una instrucción. Un modo de direccionamiento especifica
+	la forma de calcular la dirección de memoria efectiva de un operando mediante el uso de la información contenida en
+	registros dentro de una instrucción de la máquina.
+	<!--Elaboramos una lista-->
+	<br><br>Para ejecutar las instrucciones, todo procesador dispone de tres componentes principales:<br><br>
+		<li>Direccionamiento implícito:
+		<br>
+		Depende solamente de la instrucción, es decir, la instrucción no lleva parámetros.
+		Particularmente en instrucciones que no accesan memoria, o bien que tienen una forma específica de accesarla.
+		Ejemplos: PUSHF, POPF, NOP</li>
+		<br>
+		<li>Modo registro:
+		<br>
+		Usa solamente registros como operandos
+		Es el más rápido, pues minimiza los recursos necesarios (toda la información fluye dentro del EU del CPU)
+		Ejemplo: MOV AX, BX</li>
+		<br>
+		<li>Modo inmediato:
+		<br>
+		Tiene dos operandos: un registro y una constante que se usa por su valor.
+		El valor constante no se tiene que buscar en memoria, pues ya se obtuvo al hacer el “fetch” de la instrucción.
+		Ejemplo:MOV AH, 9</li>
+		<br>
+		<li>Modo directo:
+		<br>
+		Uno de los operandos involucra una localidad específica de memoria
+		El valor constante se tiene que buscar en memoria, en la localidad especificada.
+		Es más lento que los anteriores, pero es el más rápido para ir a memoria, pues ya “sabe” la localidad, la toma
+		de la instrucción y no la tiene que calcular.
+		Ejemplo: MOV AH, [0000]
+		MOV AH, Variable</li>
+		<br>
+		<li>Modo indirecto:
+		<br>
+		Se usan los registros SI, DI como apuntadores
+		El operando indica una localidad de memoria, cuya dirección (sólo la parte desplazamiento) está en SI o DI.
+		Es más lento que los anteriores, pues tiene que “calcular” la localidad
+		Ejemplos:
+		MOV AL, [SI]
+		MOV BL, ES:[SI]</li>
+		<br>
+		<li>Modo indexado de base:
+		<br>
+		Formato:
+		[BX o BP
+		+ SI o DI (opcionales)
+		+ constante (opcional)]
+		BX o BP indica una localidad base de la memoria
+		A partir de BX o BP, se puede tener un desplazamiento variable y uno constante
+		La diferencia es el segmento sobre el que trabajan por defecto:
+		BX por defecto en el segmento de datos
+		BP por defecto en el segmento de pila.
+		Ejemplos:
+		MOV AX, [BX]
+		MOV DX, [BX+2]
+		MOV CX, [BX+DI]
+		MOV DL, [BX+SI+3]</li>
+	<br><br>
+	<!--Cargamos una imagen y sus dimensiones-->
+	<center><img src="../Media/Imagenes/direccionamiento.png" alt="direccionamiento" width="390" height="384"></center>
+	<br><br>
+	<!-- Cargamos los botones y su referncia -->
+	<center><a href="conjunto_instrucciones_2.3.3.html"><button class="botonAt botonAt"></button></a><a href="unidad2.html"><button class="botonAd botonAd"></button></a>
+	</p></ul>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!--Este es un proyecto para explicar las partes de una computadora
+	Autor: Jordi Alejandro Mauricio de León -->
+<!DOCTYPE html>
+<html>
+	<!--Establecemos el titulo de la pestaña-->
+	<title>Control</title>
+	<!--Cargamos el CSS-->
+	<link rel="stylesheet" type="text/css" href="..\CSS\Style.css">
+	<!-- Cargamos el link de las fuentes de Google API -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<!-- Cargamos los tipos de fuentes elegidos -->
+	<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Bebas+Neue&family=Play:wght@700&family=Questrial&display=swap" rel="stylesheet">
+<head>
+	<!--La referencia indica que se establecera un icono para la pestaña de la pagina y de que tipo-->
+	<link rel="icon" type="image/png" href="../Media/Imagenes/icono.png">
+</head>
+<body class=fondoRam>
+	<!-- Llamamos la clase que da formato al titulo -->
+	<p class=ramTitle>&nbsp;&nbsp;&nbsp;Circuitos de control&nbsp;&nbsp;&nbsp;</p>
+	<!-- Llamamos la clase que da formato al texto -->
+	<p class=ram><ul class=ram>&nbsp;
+	El circuito de control es la parte más delicada de la controladora, ya que se encarga de controlar la entradas
+	(Puerto LPT, Entradas Analógicas, Entradas Digitales y circuito de potencia) y las salidas (Salidas Digitales).
+	<br><br>
+	<!--Cargamos una imagen y sus dimensiones-->
+	<center><img src="../Media/Imagenes/circuitos.png" alt="circuitos" width="714" height="412"></center>
+	<br><br>
+	El circuito de control de la controladora CNICE está divido en varios bloques que más adelante serán explicados en profundidad:
+	El primer bloque es el circuito analógico que sirve para poder manejar componentes analógicos de baja potencia por ejemplo
+	una resistencia LDR. Este bloque está formado por cuatro entradas analógicas A0 a A3, cuyo valor es regulado por el
+	dispositivo de entrada hasta un máximo de 5 voltios.
+	<!--Elaboramos una lista-->
+	<br><br>El segundo bloque es el circuito digital que se puede dividir en otros bloques de nivel inferior:<br>
+		<li>Bloque de control de habilitaciones: es el encargado de activar y desactivar las habilitaciones de los integrados.</li>
+		<li>Bloque de control de datos: esta parte del circuito se encarga de manejar los datos de entrada y de salida. En este
+		bloque también entraría los conectores de entrada y de salida de datos (ocho entradas digitales E0 a E7, cuyo valor
+		lógico pasa de 0 a 1 cuando se conectan a 5 voltios y ocho salidas digitales S0 a S7, de valor 0 ó 5 voltios).</li>
+	<br><br>
+	<!-- Cargamos los botones y su referncia -->
+	<center><a href="temporizacion_3.1.6.html"><button class="botonAt botonAt"></button></a><a href="video_3.1.8.html"><button class="botonAd botonAd"></button></a>
+	</p></ul>
+</body>
+</html>

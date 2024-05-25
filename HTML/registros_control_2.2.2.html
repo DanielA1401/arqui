@@ -1,0 +1,48 @@
+<!--Este es un proyecto para explicar las partes de una computadora
+	Autor: Jordi Alejandro Mauricio de León -->
+<!DOCTYPE html>
+<html>
+	<!--Establecemos el titulo de la pestaña-->
+	<title>Control/estado</title>
+	<!--Cargamos el CSS-->
+	<link rel="stylesheet" type="text/css" href="..\CSS\Style.css">
+	<!-- Cargamos el link de las fuentes de Google API -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<!-- Cargamos los tipos de fuentes elegidos -->
+	<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Bebas+Neue&family=Play:wght@700&family=Questrial&display=swap" rel="stylesheet">
+<head>
+	<!--La referencia indica que se establecera un icono para la pestaña de la pagina y de que tipo-->
+	<link rel="icon" type="image/png" href="../Media/Imagenes/icono.png">
+</head>
+<body class=fondoRam>
+	<!-- Llamamos la clase que da formato al titulo -->
+	<p class=ramTitle>&nbsp;&nbsp;&nbsp;Registros de control y de estados&nbsp;&nbsp;&nbsp;</p>
+	<!-- Llamamos la clase que da formato al texto -->
+	<p class=ram><ul class=ram>&nbsp;
+	Hay diversos registros del procesador que se emplean para controlar su funcionamiento. La mayoría de ellos, en la mayor parte de las máquinas no son visibles
+	por el usuario, pero alguno de ellos puede ser visible por ciertas instrucciones máquina ejecutadas en un modo privilegiado o de sistema operativo.
+	Naturalmente, diferentes máquinas tendrán distinta organización de registros y usarán distinta terminología.
+	<!--Elaboramos una lista-->
+	<br><br>Son esenciales cuatro registros para la ejecución de una instrucción:<br>
+		<li>Contador de programa (Program Counter- PC): Contiene la dirección de la instrucción a buscar.</li>
+		<li>Registro de instrucción (Instruction Register- IR): Contiene la instrucción buscada mas recientemente.</li>
+		<li>Registro de dirección de memoria (Memory Address Register- MAR): Contiene la dirección de una posición de memoria.</li>
+		<li>Registro amortiguador de memoria (Memory Buffer Register - MBR): Contiene el dato a escribir en una posición de memoria o 
+		el dato contenido en una posición de memoria leído más recientemente.</li>
+	<br>
+	<br>
+	No todos los procesadores tienen registros internos designados como MAR o MBR pero se necesita algún mecanismo de almacenamiento intermedio equivalente mediante el cual se de 
+	alida a los bits que van a ser transferidos por el bus de sistema se almacenen los bits leídos por el bus de datos.
+	Típicamente, el procesador actualiza el PC luego de cada búsqueda de instrucción, de manera que siempre apunte a la siguiente instrucción a ejecutar. 
+	Una instrucción de bifurcación o salto también modificará el valor del registro PC. La instrucción buscada se carga en IR, donde son analizados los códigos de operación
+	y los campos de operando. Se intercambian datos con la memoria por medio del MAR y el MBR. El MAR se conecta con el bus de direcciones y el MBR con el bus de datos. 
+	Los registros visibles por el usuario repetidamente cambian datos con MBR.
+	<br><br><br>
+	<!--Cargamos una imagen y sus dimensiones-->
+	<center><img src="../Media/Imagenes/control.png" alt="control" width="800" height="500">
+	<br><br>
+	<!-- Cargamos los botones y su referncia -->
+	<a href="registros_visibles_2.2.1.html"><button class="botonAt botonAt"></button></a><a href="cpu_reales_2.2.3.html"><button class="botonAd botonAd"></button></a>
+	</p></ul>
+</body>
+</html>

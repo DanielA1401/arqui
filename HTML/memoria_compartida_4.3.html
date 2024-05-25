@@ -1,0 +1,59 @@
+<!--Este es un proyecto para explicar las partes de una computadora
+	Autor: Jordi Alejandro Mauricio de León -->
+<!DOCTYPE html>
+<html>
+	<!--Establecemos el titulo de la pestaña-->
+	<title>Compartida</title>
+	<!--Cargamos el CSS-->
+	<link rel="stylesheet" type="text/css" href="..\CSS\Style.css">
+	<!-- Cargamos el link de las fuentes de Google API -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<!-- Cargamos los tipos de fuentes elegidos -->
+	<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Bebas+Neue&family=Play:wght@700&family=Questrial&display=swap" rel="stylesheet">
+<head>
+	<!--La referencia indica que se establecera un icono para la pestaña de la pagina y de que tipo-->
+	<link rel="icon" type="image/png" href="../Media/Imagenes/icono.png">
+</head>
+<body class=fondoMb>
+	<!-- Llamamos la clase que da formato al titulo -->
+	<p class=mbTitle>&nbsp;&nbsp;&nbsp;Sistemas de memoria compartida: Multiprocesadores&nbsp;&nbsp;&nbsp;</p>
+	<!-- Llamamos la clase que da formato al texto -->
+	<p class=mb><ul class=mb>&nbsp;
+	Un multiprocesador puede verse como un computador paralelo compuesto por varios procesadores interconectados que comparten
+	un mismo sistema de memoria.
+	<br><br>
+	Los sistemas multiprocesadores son arquitecturas MIMD con memoria compartida. Tienen un único espacio de direcciones para
+	todos los procesadores y los mecanismos de comunicación se basan en el paso de mensajes desde el punto de vista del programador.
+	<br><br>
+	Dado que los multiprocesadores comparten diferentes módulos de memoria, pudiendo acceder a un mismo módulo varios procesadores,
+	a los multiprocesadores también se les llama sistemas de memoria compartida.
+	<br><br>
+	<!--Cargamos una imagen y sus dimensiones-->
+	<center><img src="../Media/Imagenes/memoria(1).png" alt="memoria(1)" width="396" height="197"></center>
+	<br><br><br>
+	Dependiendo de la forma en que los procesadores comparten la memoria, se clasifican en sistemas multiprocesador UMA, NUMA y COMA.
+	<br><br>
+	Multiproceso es tradicionalmente conocido como el uso de múltiples procesos concurrentes en un sistema en lugar de un único
+	proceso en un instante determinado. Como la multitarea que permite a múltiples procesos compartir una única CPU, múltiples
+	CPUs pueden ser utilizados para ejecutar múltiples hilos dentro de un único proceso.
+	<br><br>
+	El multiproceso para tareas generales es, a menudo, bastante difícil de conseguir debido a que puede haber varios programas
+	manejando datos internos (conocido como estado o contexto) a la vez.
+	<br><br>
+	<!--Cargamos una imagen y sus dimensiones-->
+	<center><img src="../Media/Imagenes/memoria(2).png" alt="memoria(2)" width="396" height="197"></center>
+	<br><br><br>
+	Los programas típicamente se escriben asumiendo que sus datos son incorruptibles. Sin embargo, si otra copia del programa
+	se ejecuta en otro procesador, las dos copias pueden interferir entre sí intentando ambas leer o escribir su estado al mismo tiempo.
+	<br><br>
+	Para evitar este problema se usa una variedad de técnicas de programación incluyendo semáforos y otras comprobaciones y
+	bloqueos que permiten a una sola copia del programa cambiar de forma exclusiva ciertos valores.
+	<br><br>
+	<!--Cargamos una imagen y sus dimensiones-->
+	<center><img src="../Media/Imagenes/memoria(3).png" alt="memoria(3)" width="294" height="248"></center>
+	
+	<!-- Cargamos los botones y su referncia -->
+	<center><a href="unidad4.html"><button class="botonAt botonAt"></button></a><a href="interconexion_dinamica_4.3.1.html"><button class="botonAd botonAd"></button></a>
+	</p></ul>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!--Este es un proyecto para explicar las partes de una computadora
+	Autor: Jordi Alejandro Mauricio de León -->
+<!DOCTYPE html>
+<html>
+	<!--Establecemos el titulo de la pestaña-->
+	<title>CPU</title>
+	<!--Cargamos el CSS-->
+	<link rel="stylesheet" type="text/css" href="..\CSS\Style.css">
+	<!-- Cargamos el link de las fuentes de Google API -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<!-- Cargamos los tipos de fuentes elegidos -->
+	<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Bebas+Neue&family=Play:wght@700&family=Questrial&display=swap" rel="stylesheet">
+<head>
+	<!--La referencia indica que se establecera un icono para la pestaña de la pagina y de que tipo-->
+	<link rel="icon" type="image/png" href="../Media/Imagenes/icono.png">
+</head>
+<body class=fondoRam>
+	<!-- Llamamos la clase que da formato al titulo -->
+	<p class=ramTitle>&nbsp;&nbsp;&nbsp;Ejemplos de registros de CPU reales&nbsp;&nbsp;&nbsp;</p>
+	<!-- Llamamos la clase que da formato al texto -->
+	<p class=ram><ul class=ram>&nbsp;
+	Resulta instructivo examinar y comparar las organizaciones de registros desistemas análogos. En esta sección, examinamos 
+	microprocesadores de 16bits que fueron diseñados aproximadamente al mismo tiempo: el MotorolaMC68000 [STRI79] y el lntel 8086 [MORS78].
+	<br><br>
+	<!--Cargamos una imagen y sus dimensiones-->
+	<center><img src="../Media/Imagenes/real.png" alt="real" width="500" height="400"></center>
+	<br><br>
+	<br>
+	El MC68000 distribuye sus registros de 32 bits en ocho de datos y nueve de direcciones. Los ocho registros de datos 
+	se usan principalmente paramanipulación de datos y también se usan en direccionamiento como registrosíndice. 
+	El Intel 8086 usa un enfoque diferente para la organización de los registros. Cada uno de los registros tiene un
+	uso especial, aunque algunos registros se puedenemplear también para un uso general. El 8086 contiene cuatro registros
+	de datos de 16 bits que son direccionables como registros de bytes o como registros de 16bits, y cuatro registros punteros
+	e índices de 16 bits. Los registros de datos pueden utilizarse como de uso general en algunas instrucciones. En otras,
+	los registros se usan implícitamente.
+	<br><br>
+	<!-- Cargamos los botones y su referncia -->
+	<center><a href="registros_control_2.2.2.html"><button class="botonAt botonAt"></button></a><a href="unidad2.html"><button class="botonAd botonAd"></button></a>
+	</p></ul>
+</body>
+</html>

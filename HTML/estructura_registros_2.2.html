@@ -1,0 +1,60 @@
+<!--Este es un proyecto para explicar las partes de una computadora
+	Autor: Jordi Alejandro Mauricio de León -->
+<!DOCTYPE html>
+<html>
+	<!--Establecemos el titulo de la pestaña-->
+	<title>Estructura</title>
+	<!--Cargamos el CSS-->
+	<link rel="stylesheet" type="text/css" href="..\CSS\Style.css">
+	<!-- Cargamos el link de las fuentes de Google API -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<!-- Cargamos los tipos de fuentes elegidos -->
+	<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Bebas+Neue&family=Play:wght@700&family=Questrial&display=swap" rel="stylesheet">
+<head>
+	<!--La referencia indica que se establecera un icono para la pestaña de la pagina y de que tipo-->
+	<link rel="icon" type="image/png" href="../Media/Imagenes/icono.png">
+</head>
+<body class=fondoRam>
+	<!-- Llamamos la clase que da formato al titulo -->
+	<p class=ramTitle>&nbsp;&nbsp;&nbsp;Estructura de registros&nbsp;&nbsp;&nbsp;</p>
+	<!-- Llamamos la clase que da formato al texto -->
+	<p class=ram><ul class=ram>&nbsp;
+	Los registros vienen de tres tipos: datos, direcciones e índice, que tiene lugar en casi todos los aspectos de la operación del CPU. 
+	El tamaño de un registro depende del CPU; los más simples tienen registros que aceptan 8 o 16 bits de datos y los más complejos tienen registros de 32, 48 o 64 bits.
+	<br><br>
+	<!--Llamamos la clase que da formato al subtitulo-->
+	<p class=sub4>Clasificaci&oacute;n de los registros</p>
+	<br><br>
+	<!--Elaboramos una lista-->
+	<br><br>Clasificaci&oacute;n:<br>
+		<li>Registro de datos: Un CPU puede funcionar con datos en uno de tres modos: entre dos registros, entre registros y una ubicación de Memoria de acceso al azar 
+		(RAM - Random-Access Memory) y entre dos ubicaciones RAM. Como el CPU está conectado directamente a los registros, las operaciones que implican dos registros son las
+		más rápidas; las que se dan entre ubicaciones RAM son las más lentas. Es decir, junta dos registros, añade un registro a una ubicación RAM, o añade dos ubicaciones RAM.</li>
+		<br>
+		<li>Registro de direcciones: Para que un CPU pueda almacenar y recuperar datos en RAM, debe tener la dirección de la memoria de la información.
+		Esas operaciones que implican RAM usan registros de dirección de memoria. EL CPU no realiza aritmética en estos registros; en cambio, 
+		los usa para ubicar datos que necesita.</li>
+		<br>
+		<li>Registro de índice: Un CPU no puede hacer matemáticas en registros de datos, aunque puede hacerlo indirectamente con un registro de índice. 
+		Éste trabaja con los registros de datos, permitiendo a un programa procesar hilos de información eficazmente.</li>
+		<br>
+		<li>Registros de segmento: Un registro de segmento tiene 16 bits de longitud y facilita un área de memoria para direccionamiento conocida como segmento actual.</li>
+		<br>
+		<li>Registros de propósito general: Los registros de propósito general son el AX, BX, CX, y DX, de 16 bits. Cada uno de ellos se divide en dos
+		registros de 8 bits, llamados AH y AL, BH y BL, CH y CL, y, DH y DL, H significando High (alto) y L significando Low (bajo), 
+		indicando la parte alta o la parte baja del registro correspondiente de 16 bits.</li>
+		<br>
+		<li>Registros de apuntadores: Los registros SP (apuntador de pila) y BP (apuntador base) están asociados con el registro SS y permiten al sistema acceder 
+		a datos en el segmento de la pila.</li>
+		<br>
+		<li>Registros de banderas: Es un registro de 16 bits, de los cuales nueve sirven para indicar el estado actual de la máquina y el resultado del procesamiento.</li>
+		<br>
+		<li>Registro de punteros de instrucción: El registro IP de 16 bits contiene el desplazamiento de dirección de la siguiente instrucción que se ejecuta. El IP está
+		asociado con el registro CS en el sentido de que el IP indica la instrucción actual dentro del segmento de código que se está ejecutando actualmente en la memoria.</li>
+		<br>
+	<br><br>
+	<!-- Cargamos los botones y su referncia -->
+	<center><a href="unidad2.html"><button class="botonAt botonAt"></button></a><a href="registros_visibles_2.2.1.html"><button class="botonAd botonAd"></button></a>
+	</p></ul>
+</body>
+</html>

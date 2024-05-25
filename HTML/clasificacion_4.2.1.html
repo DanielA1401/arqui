@@ -1,0 +1,72 @@
+<!--Este es un proyecto para explicar las partes de una computadora
+	Autor: Jordi Alejandro Mauricio de León -->
+<!DOCTYPE html>
+<html>
+	<!--Establecemos el titulo de la pestaña-->
+	<title>Clasificacion</title>
+	<!--Cargamos el CSS-->
+	<link rel="stylesheet" type="text/css" href="..\CSS\Style.css">
+	<!-- Cargamos el link de las fuentes de Google API -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<!-- Cargamos los tipos de fuentes elegidos -->
+	<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Bebas+Neue&family=Play:wght@700&family=Questrial&display=swap" rel="stylesheet">
+<head>
+	<!--La referencia indica que se establecera un icono para la pestaña de la pagina y de que tipo-->
+	<link rel="icon" type="image/png" href="../Media/Imagenes/icono.png">
+</head>
+<body class=fondoMb>
+	<!-- Llamamos la clase que da formato al titulo -->
+	<p class=mbTitle>&nbsp;&nbsp;&nbsp;Clasificaci&oacute;n&nbsp;&nbsp;&nbsp;</p>
+	<!-- Llamamos la clase que da formato al texto -->
+	<p class=mb><ul class=mb>&nbsp;
+	Taxonomía de las Computadoras:
+	<br><br>
+	Las diferentes posibilidades existentes para desarrollar sistemas paralelos hacen que una clasificación definitiva sea
+	complicada. Se muestra una clasificación clásica propuesta por Flynn, que se basa en el ciclo de instrucciones y en el
+	flujo de dato.
+	<br><br>
+	<!--Cargamos una imagen y sus dimensiones-->
+	<center><img src="../Media/Imagenes/computadoras.png" alt="computadoras" width="323" height="265"></center>
+	<br><br>
+	Taxonomía de FLYNN:
+	<br><br>
+	En 1966 Flynn propuso una clasificación generalista de las computadoras adoptando como criterio el flujo de instrucciones y
+	el flujo de datos que en ellos se desarrolla. La clasificación de Flynn es la siguiente:
+	<br><br>
+	SISD::
+	<br><br>
+	Instrucción única, datos únicos. Las instrucciones se ejecutan secuencialmente pero pueden estar solapadas
+	en las etapas de ejecución.
+	<br><br>
+	<!--Cargamos una imagen y sus dimensiones-->
+	<center><img src="../Media/Imagenes/sisd.png" alt="sisd" width="368" height="199"></center>
+	<br><br>
+	SIMD:
+	<br><br>
+	Instrucción única, datos múltiples. Son los procesadores matriciales en los que existen varias unidades
+	de procesamiento trabajando sobre flujos de datos distintos pero ejecutando la misma instrucción.
+	<br><br>
+	<!--Cargamos una imagen y sus dimensiones-->
+	<center><img src="../Media/Imagenes/simd.png" alt="simd" width="294" height="296"></center>
+	<br><br>
+	MISD:
+	<br><br>
+	Instrucción múltiple, datos únicos. Este se caracteriza por la existencia de varias unidades de procesamiento cada una
+	ejecutando una instrucción diferente pero sobre el mismo flujo de datos.
+	<br><br>
+	<!--Cargamos una imagen y sus dimensiones-->
+	<center><img src="../Media/Imagenes/misd.png" alt="misd" width="294" height="292"></center>
+	<br><br>
+	MIMD:
+	<br><br>
+	Es una técnica empleada para lograr paralelismo. Las máquinas que usan MIMD tienen un número de procesadores que funcionan
+	de manera asíncrona e independiente.
+	<br><br>
+	<!--Cargamos una imagen y sus dimensiones-->
+	<center><img src="../Media/Imagenes/mimd.png" alt="mimd" width="288" height="287"></center>
+	<br><br>
+	<!-- Cargamos los botones y su referncia -->
+	<center><a href="tipos_paralela_4.2.html"><button class="botonAt botonAt"></button></a><a href="computadores_secuenciales_4.2.2.html"><button class="botonAd botonAd"></button></a>
+	</p></ul>
+</body>
+</html>

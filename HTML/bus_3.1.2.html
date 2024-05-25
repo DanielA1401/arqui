@@ -1,0 +1,61 @@
+<!--Este es un proyecto para explicar las partes de una computadora
+	Autor: Jordi Alejandro Mauricio de León -->
+<!DOCTYPE html>
+<html>
+	<!--Establecemos el titulo de la pestaña-->
+	<title>BUS</title>
+	<!--Cargamos el CSS-->
+	<link rel="stylesheet" type="text/css" href="..\CSS\Style.css">
+	<!-- Cargamos el link de las fuentes de Google API -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<!-- Cargamos los tipos de fuentes elegidos -->
+	<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Bebas+Neue&family=Play:wght@700&family=Questrial&display=swap" rel="stylesheet">
+<head>
+	<!--La referencia indica que se establecera un icono para la pestaña de la pagina y de que tipo-->
+	<link rel="icon" type="image/png" href="../Media/Imagenes/icono.png">
+</head>
+<body class=fondoRam>
+	<!-- Llamamos la clase que da formato al titulo -->
+	<p class=ramTitle>&nbsp;&nbsp;&nbsp;Controlador de bus&nbsp;&nbsp;&nbsp;</p>
+	<!-- Llamamos la clase que da formato al texto -->
+	<p class=ram><ul class=ram>&nbsp;
+	Un bus de control es un bus de computadora que utiliza la CPU para comunicarse con los dispositivos que se encuentran
+	entro de la computadora. Esto ocurre a través de conexiones físicas como cables o circuitos impresos.
+	<br>
+	La CPU transmite una variedad de señales de control a componentes y dispositivos para transmitir señales de control
+	a la CPU utilizando el bus de control. Uno de los principales objetivos de un autobús es minimizar las líneas necesarias
+	para la comunicación. Un bus individual permite la comunicación entre dispositivos utilizando un canal de datos. El bus
+	de control es bidireccional y ayuda a la CPU a sincronizar las señales de control con los dispositivos internos y los
+	componentes externos. Se compone de líneas de interrupción, líneas de habilitación de bytes, señales de lectura / escritura
+	y líneas de estado.
+	<br>
+	Aunque una CPU puede tener su propio conjunto distintivo de señales de control, algunos controles son comunes a todas las CPU:
+	<br>
+	Líneas de solicitud de interrupción (IRQ): línea de hardware utilizada por los dispositivos para interrumpir las señales a la
+	CPU. Permite que la CPU interrumpa su trabajo actual para procesar la solicitud actual.
+	<br>
+	Línea de control del reloj del sistema: proporciona la sincronización interna para varios dispositivos en la placa base y la CPU.
+	<br>
+	La mayoría de los buses del sistema se componen de 50 a 100 líneas distintas para la comunicación. 
+	<!--Elaboramos una lista-->
+	<br><br>El bus del sistema consta de tres tipos de buses:<br>
+		<li>Bus de datos: transporta los datos que necesitan procesamiento.</li>
+		<li>Bus de direcciones: determina a dónde se deben enviar los datos</li>
+		<li>Bus de control: determina el procesamiento de datos</li>
+	<br><br>
+	La comunicación entre la CPU y el bus de control es necesaria para ejecutar un sistema competente y funcional.
+	Sin el bus de control, la CPU no puede determinar si el sistema está recibiendo o enviando datos. Es el bus de
+	control que regula en qué dirección debe ir la información de lectura y escritura. El bus de control contiene una
+	línea de control para escribir instrucciones y una línea de control para leer instrucciones. Cuando la CPU escribe
+	datos en la memoria principal, transmite una señal a la línea de comando de escritura. La CPU también envía una señal
+	a la línea de comando de lectura cuando necesita leer. Esta señal permite que la CPU reciba o transmita datos desde la
+	memoria principal.
+	<br><br>
+	<!--Cargamos una imagen y sus dimensiones-->
+	<center><img src="../Media/Imagenes/cpu(2).png" alt="cpu(2)" width="406" height="281"></center>
+	<br><br>
+	<!-- Cargamos los botones y su referncia -->
+	<center><a href="cpu_3.1.html"><button class="botonAt botonAt"></button></a><a href="puertas_e-s_3.1.3.html"><button class="botonAd botonAd"></button></a>
+	</p></ul>
+</body>
+</html>

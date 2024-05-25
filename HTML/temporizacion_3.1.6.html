@@ -1,0 +1,57 @@
+<!--Este es un proyecto para explicar las partes de una computadora
+	Autor: Jordi Alejandro Mauricio de León -->
+<!DOCTYPE html>
+<html>
+	<!--Establecemos el titulo de la pestaña-->
+	<title>TEMP</title>
+	<!--Cargamos el CSS-->
+	<link rel="stylesheet" type="text/css" href="..\CSS\Style.css">
+	<!-- Cargamos el link de las fuentes de Google API -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<!-- Cargamos los tipos de fuentes elegidos -->
+	<link href="https://fonts.googleapis.com/css2?family=Antonio:wght@700&family=Bebas+Neue&family=Play:wght@700&family=Questrial&display=swap" rel="stylesheet">
+<head>
+	<!--La referencia indica que se establecera un icono para la pestaña de la pagina y de que tipo-->
+	<link rel="icon" type="image/png" href="../Media/Imagenes/icono.png">
+</head>
+<body class=fondoRam>
+	<!-- Llamamos la clase que da formato al titulo -->
+	<p class=ramTitle>&nbsp;&nbsp;&nbsp;Circutios de temporizaci&oacute;n&nbsp;&nbsp;&nbsp;</p>
+	<!-- Llamamos la clase que da formato al texto -->
+	<p class=ram><ul class=ram>&nbsp;
+	¿Que es el temporizador?
+	<br><br>
+	Es un circuito que se encuentra en la tarjeta madre del PC y que es capaz de mantener una cuenta de tiempo basada en
+	el reloj de la computadora.
+	<br><br><br>
+	La finalidad de la temporización es retardar el paso de una señal desde un nodo del circuito hasta otro punto, el diseño
+	de este circuito se realiza con un dispositivo que se conoce con el nombre de "monoestable" ó "temporizador".
+	<br><br><br>
+	Contadores independientes:
+	<br><br>
+	- El contador 0 significa que la hora es exactamente las 24:00hrs y entonces se inicializa a cero.
+	<br><br><br>
+	- El contador 1 es usado por el PC para realizar el proceso de refrescamiento de memoria.
+	<br><br><br>
+	- El contador 2 generalmente se encuentra programado para trabajar con la bocina.
+	<br><br><br>
+	- Los primeros dos contadores (0 y 1) envían una interrupción a la CPU, que el 2 no hace.
+	<br><br><br>
+	La acción generada por los contadores independientes provoca una interrupción llamada interrupción del contador,
+	la cual interrumpe brevemente al CPU e incrementa la cuenta del día.
+	<br><br>
+	Reloj de una computadora
+	Se utiliza para funciones principales:
+	Para sincronizar las diversas operaciones que realizan los diferentes subcomponentes del sistema informático.
+	Para saber la hora.
+	Marca la velocidad de proceso de la computadora generando una señal periódica que es utilizada por todos los componentes
+	de la computadora.
+	<br><br>
+	<!--Cargamos una imagen y sus dimensiones-->
+	<center><img src="../Media/Imagenes/temp.png" alt="temp" width="800" height="400"></center>
+	<br><br>
+	<!-- Cargamos los botones y su referncia -->
+	<center><a href="dma_3.1.5.html"><button class="botonAt botonAt"></button></a><a href="control_3.1.7.html"><button class="botonAd botonAd"></button></a>
+	</p></ul>
+</body>
+</html>
